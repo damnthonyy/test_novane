@@ -13,3 +13,7 @@ Build/Preview:
 ```
 npm run build && npm run preview
 ```
+
+## Aperçu
+
+![Aperçu de l'application](public/img/screen1.png)
