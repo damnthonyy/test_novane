@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #222;
+    min-height: 100vh;
+    background: radial-gradient(1200px 600px at 10% -10%, #e0f2fe40 20%, transparent 60%),
+                radial-gradient(800px 400px at 110% 10%, #fde68a40 10%, transparent 50%),
+                linear-gradient(180deg, #ffffff, #f8fafc);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
